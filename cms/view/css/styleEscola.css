@@ -1,0 +1,94 @@
+
+/******************* BODY ************************/
+/* Div que segura o conteúdo do lado da div de menu  */
+.conteudo{
+    width: 92%;
+    height: 1000px;
+    float: left;
+    background-color: beige;
+}
+/* CSS Pops Escola */
+.pag_escola{
+    width: 100%;
+    min-height: 1000px;;
+    height: auto;
+
+}
+/*página header --> tag <p id="user-name"><?php echo strtoupper($userAutenticado->getNome()); ?> */
+.tabEscola {
+	min-width: 800px;
+    width:auto;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+    font-family: serif;
+    margin-top: 120px;
+    color: black;
+	background-color:#d3ffef;
+	border:2px solid black;
+	border-radius:5px 5px 5px 5px;
+	box-shadow: 2px 2px 2px black ;
+    
+}
+th{
+    font-size: 60px;
+    color: black;
+    
+}
+td tr{
+    border:5px solid black;
+    
+}
+.tabEscola td{
+
+	width:25%;
+	border: solid 1px;
+    align-items: center;
+	
+}
+.tblcadastro_td{
+	font-family: arial;
+    color: black;
+	font-size:20px;
+    padding: 20px;
+	height:40px;
+    content: center;
+}
+.tblconsulta_dados{
+	font-family:verdana;
+	font-size:16px;
+    padding: 15px;
+	height:40px;
+    content: center;
+}
+.imagens{
+    width: 100px;
+	
+}
+.tblconsulta_dados:hover{
+	background-color: #adfaff;
+    transition: 1s;
+}
+
+.titulo_tabela{
+	font-family:bold;
+	font-size:35px;
+	text-align:center;
+    margin-top: 2px;
+	height:50px;
+	color:black;
+	border-radius:5px 5px 5px 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

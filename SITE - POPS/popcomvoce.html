@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Pops</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="CSS/style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="CSS/popcomvoce.css" />
+	<link rel="stylesheet" type="text/css" href="engine0/style.css" />
+	<script type="text/javascript" src="engine0/jquery.js"></script>
+	<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+    
+        <script src="../cms/view/js/jquery.js"></script>
+        
+         <script>
+        $(document).ready(function(){
+          // function para abrir  a janela da modal 
+                $(".caixa-item2-header").click(function(){
+                    $("#container").fadeIn(200);
+                });
+            
+                $(".caixa-conta").click(function(){
+                        $("#container2").fadeIn(200);
+                });
+            
+                $(".caixa-contaLogin").click(function(){
+                    $("#container2").fadeOut(200);
+                });
+            
+                $(".fechar").click(function(){
+                    $("#container").fadeOut();
+                });
+            
+                $(".fechar").click(function(){
+                    $("#container2").fadeOut();
+                });
+            
+            
+                $(".caixa-menu").load('menu.html');
+               
+        });
+    </script>
+    
+	</head>
+    
+<body>
+     <div id="container">
+        <div id="modal">
+            <div class="fechar">X</div>
+            <div class="titulo-modal">
+                Autentique-se para continuar
+            </div>
+            <div class="caixa-input">
+                <input type="text" placeholder="CPF/CNPJ">
+            </div>
+
+            <div class="caixa-input">
+                <input type="text" placeholder="Senha">
+            </div>
+            <div class="caixa-button">
+                <input id="btn-modal" type="button" value="Entrar">
+            </div>
+            <div class="caixa-conta">
+                <h3>Não tem uma conta? Cadastre-se</h3>
+            </div>
+            
+        </div>
+    </div>
+    
+     <div id="container2">
+        <div id="modal2">
+            <div class="fechar">X</div>
+            <div class="titulo-modal">
+                Cadastre-se
+            </div>
+            <div class="caixa-input">
+                <input type="text" placeholder="Nome">
+            </div>
+            <div class="caixa-input">
+                <input type="text" placeholder="Sobrenome">
+            </div>
+            <div class="caixa-input">
+                <input type="tel" placeholder="Telefone">
+            </div>
+
+            <div class="caixa-input">
+                <input type="email" placeholder="Email">
+            </div>
+            <div class="caixa-input">
+                <input type="password" placeholder="Senha">
+            </div>
+            <div class="caixa-button">
+                <input id="btn-modal" type="button" value="Entrar">
+            </div>
+
+            <div class="caixa-contaLogin">
+                <h3>Já tem uma conta? Fazer Login</h3>
+            </div>
+        </div>
+    </div>
+    <div id="container1">
+            <header class="conteudo-header">
+                <div class="conteudo">
+                    <!--  include do menu com jquery -->
+                    <div class="caixa-menu"></div>
+                    <div class="caixa-item1-header">
+                        <a href="produtos.html">
+                            PRODUTOS
+                        </a>
+                    </div>
+                    <a href="index.html">
+                        <div class="caixa-logo"></div>
+                    </a>
+                    <div class="caixa-item2-header">
+                        <a href="#">
+                            COMUNIDADE
+                        </a>
+                    </div>
+                    <div class="caixa-user">
+                        <img src="IMG/user.png">
+                        <div class="caixa-login">
+                            <form name="frmlogin">
+                                <div class="titulologin"> CPF/CNPJ:</div>
+                                <input type="text" placeholder="Digite..">
+                                
+                                 <div class="titulologin"> Senha:</div>
+                                <input type="text" placeholder="Digite..">
+                                <div class="caixa-submit"> 
+                                    <input type="submit" value="ENTRAR">
+                                </div>
+                                <h4> Não tem uma conta? Cadastre-se</h4>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+            </header>
+            <section class="conteudo-corpo">
+                <div class="caixa-titulo">A POP’S na sua escola? Isso mesmo! Dá uma olhada nas fotos das escolas que visitamos</div>
+                <div class="caixa-slide">
+                <!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
+                <div id="wowslider-container0">
+                <div class="ws_images"><ul>
+                    <li>
+                        <img src="IMG/escol.jpg" alt="Escola claro camargo no dia 17/05/2018" title="Escola claro camargo no dia 17/05/2018" id="wows0_0"/>
+                    </li>
+                    <li>
+                        <img src="IMG/escola.jpg" alt="slider jquery" title="Escola Freiki  no dia 10/08/2018" id="wows0_1"/>
+                    </li>
+                    <li>
+                        <img src="IMG/EVENTOS.jpg" alt="Escola nota 10 no dia 17/08/2018" title="Escola nota 10 no dia 17/08/2018" id="wows0_2"/>
+                    </li>
+                    
+                </ul></div>
+                <div class="ws_bullets">
+                <div>
+                    <a href="#" title="Escola claro camargo no dia 17/05/2018"><span><img src="data0/tooltips/escol.jpg" alt="Escola claro camargo no dia 17/05/2018"/>1</span></a>
+                    <a href="#" title="Escola Freiki  no dia 10/08/2018"><span><img src="data0/tooltips/escola.jpg" alt="Escola Freiki  no dia 10/08/2018"/>2</span></a>
+                    <a href="#" title="Escola nota 10 no dia 17/08/2018"><span><img src="data0/tooltips/180517_escolanota10_mvs7710.jpg" alt="Escola nota 10 no dia 17/08/2018"/>3</span></a>
+                </div></div><div class="ws_script" style="position:absolute;left:-99%"></div>
+                <div class="ws_shadow"></div>
+                </div>	
+                <script type="text/javascript" src="engine0/wowslider.js"></script>
+                <script type="text/javascript" src="engine0/script.js"></script>
+                <!-- End WOWSlider.com BODY section -->
+                </div>
+                <div class="caixa-titulo">
+                   Tem mais fotos CONFIRA!
+                </div>
+                <div class="caixa-slide">
+                   
+                    <div id="wowslider-container1">
+                    <div class="ws_images"><ul>
+                        <li><img src="IMG/escola.jpg" alt="Escola Freiki  no dia 10/08/2018" title="Escola Freiki  no dia 10/08/2018" id="wows1_0"/></li>
+                        <li><img src="IMG/5.jpg" alt="css slider" title="Escola Freiki  no dia 10/08/2018" id="wows1_1"/></li>
+                        <li><img src="IMG/escol.jpg" alt="Escola Freiki  no dia 10/08/2018" title="Escola Freiki  no dia 10/08/2018" id="wows1_2"/></li>
+                    </ul></div>
+                    <div class="ws_bullets"><div>
+                        <a href="#" title="Escola Freiki  no dia 10/08/2018"><span><img src="data1/tooltips/escola.jpg" alt="Escola Freiki  no dia 10/08/2018"/>1</span></a>
+                        <a href="#" title="Escola Freiki  no dia 10/08/2018"><span><img src="data1/tooltips/5.jpg" alt="Escola Freiki  no dia 10/08/2018"/>2</span></a>
+                        <a href="#" title="Escola Freiki  no dia 10/08/2018"><span><img src="data1/tooltips/escol.jpg" alt="Escola Freiki  no dia 10/08/2018"/>3</span></a>
+                    </div></div><div class="ws_script" style="position:absolute;left:-99%"></div>
+                    <div class="ws_shadow"></div>
+                    </div>	
+                    <script type="text/javascript" src="engine1/wowslider.js"></script>
+                    <script type="text/javascript" src="engine1/script.js"></script>
+                    </div>
+
+
+                <div class="caixa-contato">
+                    <div class="caixa-titulo">Quer fazer parte dessa festa? Envie os dados da escola que entramos em contato com vocês!</div>
+                    <form name="frmContato" class="caixa-form">
+                        <div class="caixa-row">
+                            <div class="titulo">Nome da Escola:</div>
+                            <div class="input">
+                                <input type="text" id="input" placeholder="Digite o nome da escola">
+                            </div>
+                        </div>
+                        
+                        <div class="caixa-row">
+                            <div class="titulo">Telefone para contato:</div>
+                            <div class="input">
+                                <input type="tel" id="input" placeholder="Digite um telefone">
+                            </div>
+                        </div>
+                        
+                        <input type="button" value="Enviar">
+                    </form>
+                </div>
+                
+                <div class="caixa-redes-sociais">
+                    <div class="txt-redes">
+                        Não achou as fotos da sua escola? Cola lá no nosso Facebook ou Instagram e vejas tudos que rolou!
+                    </div>
+                    
+                    <div class="caixa-redes2">
+                        <div class="redesicon">
+                            <img src="IMG/face.png">
+                        </div>
+                        
+                        <div class="redesicon">
+                            <img src="IMG/insta.png">
+                        </div>
+                        
+                    </div>
+                </div>
+
+                
+                
+            </section>
+            <footer class="conteudo-footer">
+                <div class="caixa-footer-sobre">
+                    <div class="caixa-sobre">
+                       <h2>Sobre nós</h2>
+                    </div>
+                    <div class="caixa-txt-sobre">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+                    </div>
+                </div>
+                <div class="caixa-footer-contatos">
+                    <h2>Contatos</h2>
+                    <div class="caixa-contatos">
+                        oncreate@gmail.com
+                        <br>
+                        <br>
+                        (11)4144-2481
+                        
+                        <div class="caixa-copy"> 
+                            © 2018 Pop´s Soda Drink
+                        </div>
+                    </div>
+                </div>
+                <div class="caixa-footer-redes">
+                    <h2>Redes Sociais </h2>
+                    <div class="redes">
+                        <div class="caixa-redes">
+                            <img src="IMG/facebook%20(1).png">
+                            <img src="IMG/google-plus.png">
+                            <img src="IMG/instagram.png">
+                        </div>
+                    </div>
+                </div>
+            </footer>
+    </div>
+</body>
+</html>

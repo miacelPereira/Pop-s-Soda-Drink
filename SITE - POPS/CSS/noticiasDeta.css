@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+
+}
+
+.conteudo-corpo{
+    width: 1400px;
+    height: auto;
+    min-height: 800px;
+    overflow: hidden;
+    margin: auto;
+    background-color: white;
+    padding-bottom: 150px;
+}
+
+
+
+.caixa-titulo{
+    width: 100%;
+    height: 150px;
+    padding-top: 80px;
+    font-family: century gothic;
+    font-size: 28px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.caixa-desc{
+    width: 100%;
+    height: 150px;
+    padding-top: 10px;
+    font-family: century gothic;
+    font-size: 28px;
+    text-align: center;
+}
+
+.info{
+    width: 100%;
+    height: 80px;
+    font-family: century gothic;
+    font-size: 18px;
+    padding-top: 30px;
+    border-bottom: 1px solid black;
+}
+
+.noticia{
+    width: 100%;
+    height: auto;
+    font-family: century gothic;
+    font-size: 20px;
+    text-align: justify;
+    padding: 50px;
+}
+
+.img-noti{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}

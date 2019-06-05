@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <title>Autentique-se</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css?f5" />
+    <link rel="stylesheet" type="text/css" href="../css/login.css?f5" />
+    <script src="../js/jquery.js"></script>
+</head>
+<body id="body-login">
+    <div id="container-login">
+        <div id="box-center">
+            <!-- TODO: H1 -->
+            <h1>LOREM IPSUM DOLOR SIT AMET.</h1>
+            <div class="box-login">
+                <h2 style="padding-top: 10px; color: #737373; font-size: 24px; font-weight: 600;">AUTENTIQUE-SE PARA CONTINUAR</h2>
+                <form id="frm-login" method="post">
+                    <div class="row-center">
+                        <input required type="number" name="txtLogin" id="txt-login" placeholder="CNPJ" maxlength="11"/>
+                    </div>
+                    <div class="row-center">
+                        <input required type="password" name="txtPass" id="txt-pass" placeholder="SENHA" maxlength="40"/>
+                    </div>
+                    <p id="login-failed" style="display: none; color: #b00; font-weight: 600">CNPJ ou SENHA incorreto(s). Tente novamente</p>
+                    <div class="row-center">
+                        <input required type="submit" value="ENTRAR">
+                    </div>
+                    <div class="row-center">
+                        <p>Não possui uma conta? <span id="register" style="color: rgb(0, 123, 194)">Inicie sua parceria com a POPS já!</span></p>
+                    </div>
+                </form>
+            </div>
+            <div class="box-register">
+                <h2 style="padding-top: 10px; color: #737373; font-size: 24px; font-weight: 600;">HORA DE EXPANDIR SEU NEGÓCIO!</h2>
+                <form id="frm-register" method="post">
+                    <div class="row-center have-caption">
+                        <input required type="number" name="txtCnpj" placeholder="CNPJ da sua empresa *" step="1" maxlength="11"/>
+                    </div>
+                    <p class="input-caption">Digite apenas números</p>
+                    <div class="row-center">
+                        <input required type="text" name="txtRazaoSocial" placeholder="Razão Social *"/>
+                    </div>
+                    <div class="row-center">
+                        <input required type="text" name="txtNomeFantasia" placeholder="Nome Fantasia *"/>
+                    </div>
+                    <div class="row-center have-caption">
+                        <input required type="number" name="txtRenda" placeholder="Renda média mensal da sua empresa *"/>
+                    </div>
+                    <p class="input-caption">Digite apenas números</p>
+                    <div class="row-center have-caption">
+                        <input required type="text" name="txtTipo" placeholder="Tipo de estabelecimento *"/>
+                    </div>
+                    <p class="input-caption">Ex.: Bar, Restaurante, Supermercado, etc.</p>
+                    <div class="row-center have-caption">
+                        <input required type="number" name="txtCep" id="txt-cep" placeholder="CEP *" maxlength="8"/>
+                    </div>
+                    <p class="input-caption">Digite apenas números</p>
+                    <div class="row-center have-caption">
+                        <input required type="text" name="txtEndereco" id="txt-endereco" placeholder="Logradouro *"/>
+                    </div>
+                    <p class="input-caption">Se o conteúdo automático não for correto, você pode alterá-lo</p>
+                    <div class="row-center row-endereco have-caption">
+                        <input type="text" name="txtBairro" id="txt-bairro" placeholder="Bairro"/>
+                        <input required type="text" name="txtCidade" id="txt-cidade" placeholder="Cidade *"/>
+                        <input required type="text" name="txtUf" id="txt-uf" placeholder="UF *" maxlength="2"/>
+                    </div>
+                    <p class="input-caption">Se o conteúdo automático não for correto, você pode alterá-lo</p>
+                    <div class="row-center have-caption">
+                        <input type="text" name="txtNumero" id="txt-numero" placeholder="Número" maxlength="6"/>
+                    </div>
+                    <p class="input-caption">Com complemento</p>
+                    <div class="row-center">
+                        <input required type="text" name="txtResponsavel" placeholder="Nome do responsável *"/>
+                    </div>
+                    <div class="row-center have-caption">
+                        <input required type="text" name="txtTelefone" placeholder="Telefone para contato *"/>
+                    </div>
+                    <p class="input-caption">Digite apenas números</p>
+                    <div class="row-center">
+                        <input required type="email" name="txtEmail" id="txt-email" placeholder="E-mail para contato *"/>
+                    </div>
+                    <div class="row-center have-caption">
+                        <input required type="password" name="txtPass2" id="txt-pass2" placeholder="Senha *" maxlength="40"/>
+                    </div>
+                    <p class="input-caption" style="margin-bottom: 10px; color: rgb(0, 123, 194)"> () Visualizar senha</p>
+
+                    <p class="input-caption b">(*): Campos obrigatórios.</p>
+                    <div class="row-center">
+                        <input required type="submit" value="CADASTRAR-SE">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="../js/main.js"></script>
+</html>

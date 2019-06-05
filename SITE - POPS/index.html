@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Pops</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="CSS/style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="CSS/home.css" />
+
+    
+	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="engine0/style.css" />
+	<script type="text/javascript" src="engine0/jquery.js"></script>
+	<!-- End WOWSlider.com HEAD section -->
+    
+         <script>
+        $(document).ready(function(){
+            
+          	//$("#container4").modal('show');
+            
+          // function para abrir  a janela da modal  
+                $(".caixa-item2-header").click(function(){
+                    $("#container").fadeIn(200);
+                });
+            
+                $(".caixa-conta").click(function(){
+                        $("#container2").fadeIn(200);
+                });
+                $(".img-nutri").click(function(){
+                    $("#container3").fadeIn(200);
+                });
+            
+                $(".caixa-contaLogin").click(function(){
+                    $("#container2").fadeOut(200);
+                });
+            
+                $(".fechar").click(function(){
+                    $("#container").fadeOut();
+                });
+            
+                $(".fechar").click(function(){
+                    $("#container2").fadeOut();
+                });
+                $(".fechar").click(function(){
+                    $("#container3").fadeOut();
+                });
+
+
+                $(".caixa-menu").load('menu.html');
+        });
+    </script>
+    
+	</head>
+    
+<body>
+     <div id="container">
+        <div id="modal">
+            <div class="fechar">X</div>
+            <div class="titulo-modal">
+                Autentique-se para continuar
+            </div>
+            <div class="caixa-input">
+                <input type="text" placeholder="CPF/CNPJ">
+            </div>
+
+            <div class="caixa-input">
+                <input type="text" placeholder="Senha">
+            </div>
+            <div class="caixa-button">
+                <input id="btn-modal" type="button" value="Entrar">
+            </div>
+            <div class="caixa-conta">
+                <h3>Não tem uma conta? Cadastre-se</h3>
+            </div>
+            
+        </div>
+    </div>
+    
+     <div id="container2">
+        <div id="modal2">
+            <div class="fechar">X</div>
+            <div class="titulo-modal">
+                Cadastre-se
+            </div>
+            <div class="caixa-input">
+                <input type="text" placeholder="Nome">
+            </div>
+            <div class="caixa-input">
+                <input type="text" placeholder="Sobrenome">
+            </div>
+            <div class="caixa-input">
+                <input type="tel" placeholder="Telefone">
+            </div>
+
+            <div class="caixa-input">
+                <input type="email" placeholder="Email">
+            </div>
+            <div class="caixa-input">
+                <input type="password" placeholder="Senha">
+            </div>
+            <div class="caixa-button">
+                <input id="btn-modal" type="button" value="Entrar">
+            </div>
+
+            <div class="caixa-contaLogin">
+                <h3>Já tem uma conta? Fazer Login</h3>
+            </div>
+        </div>
+    </div>
+    <div id="container3">
+        <div id="modal3">
+            <div class="fechar">X</div>
+            <h1 style="color: dimgray"> Informação Nutricional</h1>
+            <h6>Porção de 200ml</h6>
+            
+             <table class="table">
+                    <tr>
+                        <th colspan="2">Quantidade por porção </th>
+                        <th>%VD(*)</th>
+                    </tr>
+                    <tr>
+                        <td >Valor energético </td>
+                        <td >20kcal = 84kj </td>
+                        <td >1</td>
+                       
+                    </tr>
+                    <tr>
+                        <td >Valor energético </td>
+                        <td >20kcal = 84kj </td>
+                        <td >1</td>
+                       
+                    </tr>
+                    <tr>
+                        <td >Valor energético </td>
+                        <td >20kcal = 84kj </td>
+                        <td >1</td>
+                       
+                    </tr>
+                    <tr>
+                        <td >Valor energético </td>
+                        <td >20kcal = 84kj </td>
+                        <td >1</td>
+                       
+                    </tr>
+                    <tr>
+                        <td >Valor energético </td>
+                        <td >20kcal = 84kj </td>
+                        <td >1</td>
+                       
+                    </tr>
+                    <tr>
+                        <td >Valor energético </td>
+                        <td >20kcal = 84kj </td>
+                        <td >1</td>
+                       
+                    </tr>
+                    <tr>
+                        <td >Valor energético </td>
+                        <td >20kcal = 84kj </td>
+                        <td >1</td>
+                       
+                    </tr>
+                    <tr>
+                        <td >Valor energético </td>
+                        <td >20kcal = 84kj </td>
+                        <td >1</td>
+                       
+                    </tr>
+                    <tr>
+                        <td >Valor energético </td>
+                        <td >20kcal = 84kj </td>
+                        <td >1</td>
+                       
+                    </tr>
+                    <tr>
+                        <td >Valor energético </td>
+                        <td >20kcal = 84kj </td>
+                        <td >1</td>
+                       
+                    </tr>
+                    <tr>
+                        <td >Valor energético </td>
+                        <td >20kcal = 84kj </td>
+                        <td >1</td>
+                       
+                    </tr>
+                    <tr>
+                        <td >Valor energético </td>
+                        <td >20kcal = 84kj </td>
+                        <td >1</td>
+                       
+                    </tr>
+                </table>
+                <h6 style="text-align: justify" >(*) % Valores Diários de Referência com base em uma dieta de 2.000 kcal ou 8400 kj. Seus valores diários podem ser maiores ou menores, dependendo de suas necessidades energéticas. </h6>
+        </div>
+    </div>
+    
+    <div id="container4">
+        <div id="modal4">
+			<div class="fechar">X</div>
+    			<h1 style="color: black ; padding: 30px; color: dodgerblue">Quer receber todas as nossas promoçoes em dia ? Deixe seu emai que enviaremos tudinho! </h1>
+				<input type="text" placeholder="E-mail" style="padding: 20px; text-align: center; margin-left: 110px; margin-top: 10px; " >
+		</div>
+    </div>
+    
+    <div id="container1">
+            <header class="conteudo-header">
+                <div class="conteudo">
+                    <!--  include do menu com jquery -->
+                    <div class="caixa-menu"></div>
+                    <div class="caixa-item1-header">
+                        <a href="produtos.html">
+                            PRODUTOS
+                        </a>
+                    </div>
+                    <a href="index.html">
+                        <div class="caixa-logo"></div>
+                    </a>
+                    <div class="caixa-item2-header">
+                        <a href="#">
+                            COMUNIDADE
+                        </a>
+                    </div>
+                    <div class="caixa-user">
+                        <img src="IMG/user.png">
+                        <div class="caixa-login">
+                            <form name="frmlogin">
+                                <div class="titulologin"> CPF/CNPJ:</div>
+                                <input type="text" placeholder="Digite..">
+                                
+                                 <div class="titulologin"> Senha:</div>
+                                <input type="text" placeholder="Digite..">
+                                <div class="caixa-submit"> 
+                                    <input type="submit" value="ENTRAR">
+                                </div>
+                                <h4> Não tem uma conta? Cadastre-se</h4>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+            </header>
+            <section class="conteudo-corpo">
+                <div class="caixa-primeira">
+                    <div class="caixa-titulo-primiera">Bem Vindo </div>
+                        <div class="caixa-texto-primeira">Fizemos um Site especialmente para você, aproveite as novidades e participe tambem    </div>
+                </div>
+                
+                <div class="div-caixa-produto"> 
+                    <div class="caixa-titulo-produto"> Confira alguns de nossos produtos</div>
+                        <div class="caixa-produto">
+                            <div class="produtos">
+                                <div class="img-produto">
+                                    <img src="IMG/Non_Carbonated_Soft_Drinks.png" alt="imagem-produto">
+
+                                    <div class="titulo">Slice</div>
+                                    <div class="tipo">Refrigerante de laranja</div>
+
+                                    <div class="descricao">
+                                        Detalhes
+                                        <div class="hoverdesc">
+                                            <h1>Slice</h1>
+                                            <br>
+                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+                                            <div class="caixa-nutricional">
+                                                <h3 style="float: left; padding:10px;" >Tabela Nutricional:</h3>
+                                                <div class="img-nutri"></div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="produtos">
+                                <div class="img-produto">
+                                    <img src="IMG/Non_Carbonated_Soft_Drinks.png" alt="imagem-produto">
+
+                                    <div class="titulo">Slice</div>
+                                    <div class="tipo">Refrigerante de laranja</div>
+
+                                    <div class="descricao">
+                                        Detalhes
+                                        <div class="hoverdesc">
+                                            <h1>Slice</h1>
+                                            <br>
+                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+                                            <div class="caixa-nutricional">
+                                                <h3 style="float: left; padding:10px;" >Tabela Nutricional:</h3>
+                                                <div class="img-nutri"></div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="produtos">
+                                <div class="img-produto">
+                                    <img src="IMG/Non_Carbonated_Soft_Drinks.png" alt="imagem-produto">
+
+                                    <div class="titulo">Slice</div>
+                                    <div class="tipo">Refrigerante de laranja</div>
+
+                                    <div class="descricao">
+                                        Detalhes
+                                        <div class="hoverdesc">
+                                            <h1>Slice</h1>
+                                            <br>
+                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+                                            <div class="caixa-nutricional">
+                                                <h3 style="float: left; padding:10px;" >Tabela Nutricional:</h3>
+                                                <div class="img-nutri"></div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                </div>
+                
+                <div class="caixa-enquete">
+                    <div class="caixa-titulo">
+                        Participe de nossa enquete !
+                    </div>
+                    
+                    <div class="descricaoEnque">
+                         Participe de nossa enquete e concorra a uma pelucia!
+                        <br>
+                        O estilo de nosso site é atraente?
+                    </div>
+                    <form name="frmenquete" > 
+						<div class="caixa-radio">
+							<label class="container">SIM
+							  <input type="radio" checked="checked" id="check" name="check">
+							  <span class="checkmark"></span>
+							</label>
+							<label class="container">BEM POUCO
+							  <input type="radio" id="check" name="check">
+							  <span class="checkmark"></span>
+							</label>
+							<label class="container">ADOREEEI
+							  <input type="radio" id="check" name="check">
+							  <span class="checkmark"></span>
+							</label>
+							<label class="container">FEIOO
+							  <input type="radio" id="check" name="check">
+							  <span class="checkmark"></span>
+							</label>
+						</div>
+                        <div class="caixa-email-enque">
+                             <div class="descricaoEnque">
+                                Agora é bem simples basta colocar seu email e prontinho!
+                            </div>
+                             <input type="text" placeholder="digite aqui" id="txtenquete" style="margin-right: auto; margin-left: auto; margin-top: 20px;">
+                        </div>
+                        <div class="btncenter">
+                            <input type="button" value="Enviar Resposta" name="btnresposta" >
+                        </div>
+                    </form>
+                </div>
+                
+                
+                
+                
+                <div class="caixa-slide">
+                    <div class="caixa-titulo">
+                        Veja alguns posts da nossa comunidade e participe voce também!
+                    </div>
+                    <div class="slide">
+                        <div class="caixa-post">
+                            <div class="post">
+                                <p> - Nyene</p>
+                                <span>"orem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma" </span>
+                            </div>
+                             <div class="post">
+                                <p> - Nyene</p>
+                                <span>orem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma </span>
+                            </div>
+                         </div>
+                         
+                         <div class="caixa-post">
+                            <div class="post">
+                                <p> - Nyene</p>
+                                <span>orem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma </span>
+                            </div>
+                                <div class="post">
+                                <p> - Nyene</p>
+                                <span>orem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma </span>
+                            </div>
+                            </div>
+                    </div>
+	
+                </div>
+                
+                <div class="caixa-promocao">
+                        <div class="caixa-txt-promo">
+                            <p>Participe de nossas promoções e concorra a varios prêmios</p>
+                        </div>
+                        <div class="caixa-btn-promo">
+                            <a href="promocoes.php">
+                                <input type="button" value="Inscreva-se" id="btn-promo">
+                            </a>
+                        </div>
+                </div>
+                
+                
+                <div class="caixa-eventos">
+                     <div class="caixa-titulo">
+                       Não perca os nossos próximos eventos!
+                    </div>
+                    
+                    <div class="evento">
+                        <h2>Evento POPS NA PISTA</h2>
+                        <h3>Local</h3>
+                        <h3>Dia e Hora</h3>
+                    </div>
+                    <div class="evento">
+                        <h2>Evento POPS NA PISTA</h2>
+                        <h3>Local</h3>
+                        <h3>Dia e Hora</h3>
+                    </div>
+                    <div class="evento">
+                        <h2>Evento POPS NA PISTA</h2>
+                        <h3>Local</h3>
+                        <h3>Dia e Hora</h3>
+                    </div>
+                </div>
+                
+                
+                <div class="caixa-bebida">
+                    <div class="caixa-titulo" style="font-family:century gothic; font-size: 40px; font-weight:600; flex: 1;">
+                        <img src="IMG/local.png " style" width="40px;" height="40px;" " >
+                        <h5 style="margin-left: -300px; ">Encontre Sua Bebida Favorita </h5>
+                        <h5 style="margin-left: 400px;">Bem Pertinho De Você!</h5>
+                    </div>
+                    <div class="caixa-busca">
+                        <form name="frmBusca" method="get" action="nossasLojas.php">
+                            <input type="search" id="txtPesquisa"  autocomplete="on" name="txtPesquisa" placeholder="Digite o nome da cidade">
+                            <input type="submit" name="btnCidade" id="btnCidade" value="Pesquisar" onclick="pesquisa()" style=" background-color: #52b7ce;">
+                        </form>
+                     </div>
+                </div>
+                
+                <div class="caixa-app">
+                    <div class="caixa-img-mobile">
+                        <img src="IMG/Mobile-PNG-Clipart.png" width="400px" height="500px">
+                    </div>
+                    <div class="caixa-txt-mobile">
+                            Confira nosso aplicativo
+                            <p style="font-size: 25px;"> - Faça a compra de brindes pelo APP</p>
+                            <p style="font-size: 25px;"> - Participe da comunidade POPS</p>
+                            <p style="font-size: 25px;"> - Localize estabelecimentos próximos</p>
+                            <p style="font-size: 20px; font-family: century gothic; margin-top: 80px; float: left;" >Disponível na Play Store</p> <img src="IMG/play.png"  style=" margin-top: 70px; margin-left: 10px;  float: left;" width="40px;" height="40px;">
+                    </div>
+                </div>
+                
+                
+            </section>
+            <footer class="conteudo-footer">
+                <div class="caixa-footer-sobre">
+                    <div class="caixa-sobre">
+                       <h2>Sobre nós</h2>
+                    </div>
+                    <div class="caixa-txt-sobre">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+                    </div>
+                </div>
+                <div class="caixa-footer-contatos">
+                    <h2>Contatos</h2>
+                    <div class="caixa-contatos">
+                        oncreate@gmail.com
+                        <br>
+                        <br>
+                        (11)4144-2481
+                        
+                        <div class="caixa-copy"> 
+                            © 2018 Pop´s Soda Drink
+                        </div>
+                    </div>
+                </div>
+                <div class="caixa-footer-redes">
+                    <h2>Redes Sociais </h2>
+                    <div class="redes">
+                        <div class="caixa-redes">
+                            <img src="IMG/facebook%20(1).png">
+                            <img src="IMG/google-plus.png">
+                            <img src="IMG/instagram.png">
+                        </div>
+                    </div>
+                </div>
+            </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,343 @@
+#container-usuarios{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    /* justify-content: center; */
+    flex: 1;
+    background-color: #545454;
+    /* background-image: radial-gradient(circle, #04594a, #08463b, #09342d, #09231e, #00120f); */
+}
+
+#usuarios-header{
+    height: 72px;
+    background-color: #80e5af;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 10px;
+    padding-right: 40px;
+
+}
+
+#usuarios-body{
+    flex: 1;
+    /* background-color: #0f03; */
+    display: flex;
+    justify-content: center;
+
+}
+
+.page-header-item{
+    width: 60px;
+    height: 100%;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.page-header-item div{
+    width: 55px;
+    height: 55px;
+    margin-left: 1px;
+}
+
+#new-user-img{
+    background-image: url('../img/employee%20(1).png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#new-permission-img{
+   background-image: url('../img/protection.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.box-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    padding: 0px 60px;
+    /* background-color: #f00; */
+}
+
+.box-content2{
+    width: 100%;
+    display: none;
+    flex-direction: column;
+    margin-bottom: 20px;
+    padding: 0px 60px;
+}
+
+.li-title{
+
+    height: 68px;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+
+    background-image: linear-gradient(to bottom, #0d0d0d, #111111, #141414, #171717, #1a1a1a);
+
+    border-radius: 7px 7px 7px 7px;
+    -moz-border-radius: 7px 7px 7px 7px;
+    -webkit-border-radius: 7px 7px 7px 7px;
+
+    /* border: 1px #fff solid; */
+}
+
+.li-title img{
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+}
+
+.li-title h1{
+    line-height: 68px;
+    font-size: 22px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Trebuchet MS';
+    margin-left: 8px;
+}
+
+.li-footer{
+
+    height: 68px;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+
+    background-image: linear-gradient(to bottom, #2c2c2c, #262626, #212121, #1b1b1b, #161616);
+
+    border-radius: 7px 7px 7px 7px;
+    -moz-border-radius: 7px 7px 7px 7px;
+    -webkit-border-radius: 7px 7px 7px 7px;
+
+    /* border: 1px #fff solid; */
+}
+
+.li-footer img{
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+}
+
+.li-footer h1{
+    line-height: 68px;
+    font-size: 22px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Trebuchet MS';
+    margin-left: 8px;
+
+}
+
+.li-usuarios{
+    display: flex;
+    height: 88px;
+    /* line-height: 78px; */
+
+    margin-top: 3px;
+    padding: 4px 8px 4px 20px;
+
+    background-image: linear-gradient(to top, #2c2c2c, #262626, #212121, #1b1b1b, #161616);
+
+    /* border-left: 1px #fff solid; */
+    /* border-right: 1px #fff solid; */
+
+    border-radius: 7px 7px 7px 7px;
+    -moz-border-radius: 7px 7px 7px 7px;
+    -webkit-border-radius: 7px 7px 7px 7px;
+
+    /* color: #fff; */
+}
+
+.box-left{
+    /* background-color: #ff06; */
+    flex: 4;
+}
+
+.box-right{
+    flex: 1;
+    /* background-color: #f006; */
+    display: flex;
+    justify-content: center;
+    
+}
+
+.li-permissoes .box-right{
+    flex: 1;
+    /* background-color: #f006; */
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    
+}
+
+.box-left-halign{
+    /* background-color: #00f6; */
+    flex: 1;
+    display: flex;
+    
+}
+
+.profile-photo{
+    margin-top: 5px;
+    width: 70px;
+    height: 70px;
+    border-radius: 15%;
+
+    background-color: #cc0000;
+}
+
+.li-usuarios:hover .profile-photo{
+    background-image: linear-gradient(to bottom, #ff0000, #f20000, #e50000, #d90000, #cc0000);
+}
+
+.box-left-valign{
+    /* background-color: #00f6; */
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-top: 23px;
+    padding-left: 13px;   
+}
+
+.box-left-valign h2{
+    font-size: 22px;
+    color: #fff;
+    
+}
+
+.box-left-valign h3{
+    font-size: 18px;
+    color: #99ff99;
+    
+}
+
+.li-ico{
+    width: 58px;
+    height: 58px;
+    background-color: #00802b;
+    border-radius: 50%;
+    margin: 10px 5px;
+    border: 3px solid #00cc44;
+}
+
+.li-ico:hover{
+    background-image: linear-gradient(to top, #009933, #00b23b, #00cb44, #00e54c, #00ff55);
+}
+
+.ico-del-user{
+    width: 55px;
+    height: 55px;
+
+    background-image: url('../img/profile-delete-black.svg');
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    background-size: 92%;
+    background-position: top;
+}
+
+.ico-del-user:hover{
+    background-image: url('../img/profile-delete-red.svg');
+}
+
+.ico-permission-user{
+    width: 55px;
+    height: 55px;
+
+    background-image: url('../img/levels.svg');
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    background-size: 77%;
+    background-position: center;
+}
+
+.ico-details-user{
+    width: 55px;
+    height: 55px;
+    cursor: pointer;
+    background-image: url('../img/details.svg');
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: center;
+}
+
+.add-new-user{
+    cursor: pointer;
+}
+
+.add-new-permission{
+    cursor: pointer;
+}
+
+
+.box-cb-user-permission{
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+
+.li-permissoes{
+    display: flex;
+    height: 120px;
+    /* line-height: 78px; */
+
+    margin-top: 3px;
+    padding: 4px 8px 4px 20px;
+
+    background-color: #099990;
+    /* background-image: linear-gradient(to top, #2c2c2c, #262626, #212121, #1b1b1b, #161616); */
+
+    /* border-left: 1px #fff solid; */
+    /* border-right: 1px #fff solid; */
+
+    border-radius: 7px 7px 7px 7px;
+    -moz-border-radius: 7px 7px 7px 7px;
+    -webkit-border-radius: 7px 7px 7px 7px;
+
+    /* color: #fff; */
+}
+.item-exit{
+    padding-left: 20px;
+    flex: 1;
+    height: 100%;
+}
+#exit{
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/back-arrow.png');
+    background-repeat: no-repeat;
+    background-size: 50px;
+    text-align: left;
+    cursor: pointer;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+    
+}
+.tooltip .tooltiptext {
+  visibility: hidden;
+  background-color: whitesmoke;
+  color: darkgrey;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 5px;;
+  width: auto;
+  top: -62%;
+  left: 40%; 
+  margin-left:-40px;
+  font-size: 12px;
+  
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}

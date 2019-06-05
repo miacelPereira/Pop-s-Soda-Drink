@@ -1,0 +1,44 @@
+publiciadae paginas terminadas ---
+home ok ------------------------------
+brindes nao esta abrindo a modal	
+estab - ok--------------------------------
+eventos - modal bugou
+historia - ok---------------------------------
+missao e valores - ok----------------------------
+lojas - ok-------------------------
+videos - ok modal tem que colocar uma caixa pra carregar o video 
+noticias - ok mais alinhar a modal
+parceiros - ok alinha btnn amodal
+posp com vc - ok--------------------------
+produtos - modal nao esta abrindo 
+promocoes - ok mais arrumar alguns detalhes na modal 
+
+post da comunidade front 0 ( ativar apenas 4 para aparecer no cadastrar home apenas 4 opçoes no option ) 
+estatistica front 0
+
+adm - 
+pedidos - ok ----------------------------
+produtos - modal nao abre 	( elimar arrumar os links pois tirei o headerzinho ) 
+cad de brinde - ok  -------------------------------
+chamado - ok  -----------------------------------
+materia prima - nao sei se ta funcionando  ( elimar arrumar os links pois tirei o headerzinho ) 
+embalagem - modal nao abre  ( elimar arrumar os links pois tirei o headerzinho )  
+aprovar conta empesa - ok ------------------------------
+fale conosco - nao ta funcionando nada , modal com erro 
+mais vendidos - listagem nao vindo do banco 
+
+
+marketing 
+promocoes -- ajeitar modal 
+contatos - qual opcoes vai ter 
+enquete - modal stefany 
+pops soda - ok -------------------------------------------
+eventos - modal de cad ok , modal de vis nao
+noticias - nenhuma modal abrindo 
+parceiros no esporte nenhuma modal abrindo 
+
+funcionario ( elimar separar as duas coisas em duas pag , deixar no padrao clean , e tirar o headerzinho  )
+
+ 
+
+	

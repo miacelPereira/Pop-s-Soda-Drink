@@ -1,0 +1,95 @@
+#container-cadastroProdutos{
+    background-color: #a6a6a6;
+    padding: 20px;
+    overflow: auto;
+    height: inherit;
+}
+
+#page-title{
+    text-align: center;
+    font-size: 30px;
+}
+
+textarea{
+    width: 476px;
+    min-width: 476px;
+    max-width: 476px;
+    height: 100px;
+    min-height: 100px;
+    max-height: 250px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+input[type="text"], input[type="number"], select{
+    width: 476px;
+    height: 50px;
+    font-size: 20px;
+    padding-left: 12px;
+    text-align: left;
+}
+
+/* input[type="text"]::placeholder, input[type="number"]::placeholder{ */
+*::placeholder{
+    text-align: left;
+}
+
+.form-row{
+    /* background-color: #0001; */
+    padding: 10px 0px 5px 0px;
+}
+
+.form-row p{
+    margin-bottom: 3px;
+}
+
+.quant-uni input[type="number"]{
+    width: 395px;
+    margin-right: 5px;
+}
+.quant-uni select{
+    width: 76px;
+}
+
+#real-table{
+    display: none;
+}
+
+table{
+    margin: 0 auto;
+    background-color: #73e0a6;
+    text-align: center;
+    overflow: auto;
+    padding: 2px;
+}
+
+thead tr th{
+    height: 50px;
+}
+
+tfoot tr td{
+    background-color: #ddd ;
+}
+
+table td{
+    background-color: #f5f5f5;
+    min-width: 30px;
+    height: 30px;
+    font-size: 14px;
+}
+
+.nutri .nutri-elemento{
+    width: 306px;
+}
+
+.nutri .nutri-quantidade{
+    width: 130px;
+}
+
+.nutri .nutri-vd{
+    width: 70px;
+}
+
+#btnAddNutri{
+    width: 510px;
+}

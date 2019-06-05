@@ -1,0 +1,329 @@
+#back-modal{
+    width: 100%;
+    height: 100vh;
+    z-index: 998;
+    /* float: left; */
+    position: fixed;
+    background: rgba(0, 0, 0, .80);
+    display: none;
+    overflow: auto;
+}
+
+#modal{
+    width: 800px;
+    /* min-height: 520px;  */
+    background-color: #fdfdfd;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-top: 160px; */
+    /* margin-bottom: 10px; */
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    height: auto;
+    margin-top: 50px;
+  
+
+    border-radius: 7px 7px 7px 7px;
+    -moz-border-radius: 7px 7px 7px 7px;
+    -webkit-border-radius: 7px 7px 7px 7px;
+}
+
+#modal-header{
+    width: 100%;
+    /* margin-top: -70px; */
+    height: 65px;
+    background-color: #80e5af;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+ 
+}
+
+.header-text{
+    /* color: #747474; */
+    text-align: center;
+    font-size: 26px;
+    line-height: 65px;
+}
+
+#close-modal{
+    color: #000;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+#modal-body{
+    background-color: #c4c4c4; 
+   padding: 20px 30px;
+   display: flex;
+    height: auto;
+   flex-direction: column;
+    
+}
+
+
+
+.modal-line{
+    padding: 8px 30px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: #f00; */
+}
+
+.box-permissoes-padrao{
+    display: block;
+}
+
+/* NEW PERMISSION */
+.new-permission-box-permissoes{
+    padding: 0 76px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* display: none; */
+    /* background-color: #0006; */
+}
+
+.new-permission-box-permissoes2{
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* display: none; */
+    /* background-color: #0006; */
+}
+
+#new-permission-title2{
+    padding: 10px;
+    /* background-color: #0008; */
+}
+
+.new-permission-paginas{
+    text-align: right;
+    line-height: 34px;
+    margin-right: 10px;
+}
+
+.new-permission-cruds{
+    margin-top: 2px;
+    line-height: 34px;
+}
+
+/* NEW USER */
+.new-user-box-permissoes{
+    padding: 20px 76px;
+    
+    /* justify-content: center; */
+    display: none;
+    /* display: flex; */
+    /* background-color: #0006; */
+    flex-direction: column;
+}
+
+.new-user-box-permissoes-row{
+    justify-content: center;
+    display: flex;
+    /* background-color: #0006; */
+    flex-direction: row;
+}
+
+.box-permissoes-paginas{
+    text-align: right;
+    line-height: 34px;
+    margin-right: 10px;
+}
+
+.box-permissoes-cruds{
+    font-size: 13px;
+    line-height: 34px;
+}
+
+.box-permissoes-cruds p{
+    font-size: 13px;
+    text-align: left;
+}
+
+form{
+    text-align: center;
+}
+
+/* TODO: COLOCAR 'inp-def' NAS MINHAS MODAIS NOS INPUTS ONDE A FORMATAÇÃO ESTAVA SENDO GENÉRICA */
+/* .modal-line input[type=text], input[type=submit], input[type=button], input[type=number], input[type=password], select{ */
+.modal-line .inp-def{
+    width: 80%;
+    height: 50px;
+    border-radius: 6px;
+    text-align: center;
+    /* background-color: #262626; */
+}
+
+select{
+    padding-left: 15px;
+}
+
+/* .modal-edit{
+    background-color: #262626;
+    width: 85%;
+    margin: 0 auto;
+    background-image: url('../img/edit-256.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 8%;
+}
+
+.modal-line input[type=text]:hover{
+    cursor: pointer;
+    opacity: 0;
+    color: #0000;
+} */
+
+.modal-line p{
+    font-weight: 600;
+    font-size: 22px;
+    color: #003311;
+    margin-bottom: 3px;
+}
+
+.modal-line textarea{
+    min-width: 85%;
+    max-width: 85%;
+    min-height: 45px;
+    height: 90px;
+    max-height: 180px;
+    text-align: center;
+    padding: 10px;
+}
+
+::-webkit-input-placeholder {
+    text-align: center;
+ }
+ 
+ :-moz-placeholder { /* Firefox 18- */
+    text-align: center;  
+ }
+ 
+ ::-moz-placeholder {  /* Firefox 19+ */
+    text-align: center;  
+ }
+ 
+ :-ms-input-placeholder {  
+    text-align: center; 
+ }
+
+ /* ↓ CHECKBOX */
+ .checkbox
+ {
+     /* transform: translate(-50%,-50%); */
+     transform-style: preserve-3d;
+     perspective: 200px;
+     width: 200px;
+     height: 40px;
+     border-radius: 40px;
+
+     /* margin-top: 30px; */
+     margin-left: auto;
+     margin-right: auto;
+     font-size: 12px;
+     
+ }
+ #cb-permissao-padrao
+ {
+     position: relative;
+     width: 100px;
+     height: 40px;
+     margin: 0;
+     -webkit-appearance: none;
+     outline: none;
+     transition: 0.5s;
+     cursor: pointer;
+ }
+
+ #title-padrao, #title-personalizado
+ {
+     position: absolute;
+     top: 0;
+     width: 50%;
+     height: 100%;
+     line-height: 40px;
+     height: 40px;
+     text-align: center;
+     text-transform: uppercase;
+     font-weight: bold;
+     pointer-events: none;
+     color: #fff;
+     transform-style: preserve-3d;
+ }
+#title-personalizado{
+    color: #000;
+}
+ #title-padrao
+ {
+     left: 0;
+     border-top-left-radius: 40px;
+     border-bottom-left-radius: 40px;
+     background: #000;
+ }
+ #title-padrao:before
+ {
+     content: '';
+     position: absolute;
+     top: 0;
+     right: 0;
+     width: 100%;
+     height: 100%;
+     background: linear-gradient(90deg,#c6f4db,#7cefb2);
+     border-top-left-radius: 40px;
+     border-bottom-left-radius: 40px;
+     transform-origin: right;
+     transition: 1s;
+     backface-visibility: hidden;
+ }
+ #cb-permissao-padrao:checked ~ #title-padrao:before
+ {
+     transform: rotateY(180deg);
+ }
+ #title-personalizado
+ {
+     right: 0;
+     border-top-right-radius: 40px;
+     border-bottom-right-radius: 40px;
+     background: #7cefb2;
+ }
+ #title-personalizado:before
+ {
+     content: '';
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background: linear-gradient(90deg,#000,#747474);
+     border-top-right-radius: 40px;
+     border-bottom-right-radius: 40px;
+     transform-origin: left;
+     transition: 1s;
+     backface-visibility: hidden;
+     transform: rotateY(180deg);
+ }
+ #cb-permissao-padrao:checked ~ #title-personalizado:before
+ {
+     transform: rotateY(360deg);
+ }
+
+ /* ↑ CHECKBOX */
+
+input[type=submit]{
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    background-color: #609a7b;
+    border-radius: 8px;
+    color: white;
+}
+input[type=submit]:hover{
+    background-color: #466c57;
+}
+

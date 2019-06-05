@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+
+}
+
+.conteudo-corpo{
+    width: 1400px;
+    height: auto;
+    min-height: 800px;
+    overflow: hidden;
+    margin: auto;
+    padding-bottom: 150px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.caixa-titulo{
+    flex: 1;
+    width: 100%;
+    height: 280px;
+    font-family: century gothic;
+    font-size: 28px;
+    cursor: pointer;
+    color: dimgrey;
+    text-align: center;
+    padding: 90px;
+}
+
+h5{
+    padding-top: 30px;
+}
+.caixa-row{
+    flex: 1;
+    width: 100%;
+    height: auto;
+    min-height: 400px;
+    overflow: hidden;
+    padding: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.txt-empresa{
+    flex: 1;
+    font-family: century gothic;
+    font-size: 19px;
+    text-align: right;
+}
+.txt-empresa2{
+    flex: 1;
+    margin-left: 100px;
+    font-family: century gothic;
+    font-size: 19px;
+    text-align: left;
+}
+
+.img-empresa{
+    flex: 1;
+    margin-left: 100px;
+}
+.img-empresa2{
+    flex: 1;
+}

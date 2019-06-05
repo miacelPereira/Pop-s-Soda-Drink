@@ -1,0 +1,56 @@
+<script>
+    function loadList(){
+        $.ajax({
+            type: "GET",
+            url: "content/list_parceiro.php",
+            success: function(dados){
+                $("#container-list").html(dados)
+            }
+        })
+    }
+
+    $('#form').submit(function(){
+    event.preventDefault();
+
+    var link = "../router.php?controller=parceiro&action=insert";
+        $.ajax({
+            type: "POST",
+            url: link,
+            data: new FormData($('#form')[0]),
+            cache: false,
+            contentType: false,
+            processData: false,
+            async: true,
+            success: function(data){
+                $('#back-modal').fadeOut(200);
+                loadList();
+            }
+        });
+    });
+
+</script>
+<div class="modal" style="text-align: center;">
+    <div class="fechar">X</div>
+    <h1 style="text-align: center; font-size: 25px">Parceiros no esporte</h1>
+    <form id="form" method="POST" enctype="multipart/form-data">
+        <div class="caixa-file" style="margin-top: 20px;">
+            <div class="img-file"></div>
+            <input type="file" name="file-imagem">
+        </div>
+        <div class="caixa">
+            <div class="txt"> <h3 >Nome:</h3></div>
+            <input type="text" name="txt-nome" >
+        </div>
+        <div class="caixa">
+            <div class="txt"> <h3 >Esporte:</h3></div>
+            <input type="text"  name="txt-esporte">
+        </div>
+        <div class="caixa" >
+            <div class="txt"> <h3 >Pais:</h3></div>
+            <input type="text"  name="txt-pais">
+        </div>
+        <div class="caixa3">
+            <input type="submit" class="btn-salvar" value="salvar">
+        </div>
+    </form>
+</div>

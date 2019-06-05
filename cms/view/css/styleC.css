@@ -1,0 +1,305 @@
+
+ /* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a {
+    list-style-type: none;
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+}
+
+ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+li{
+	padding: 10px;
+	border: 1px solid black;
+
+}
+li:hover{
+	
+    background-color: darkseagreen;
+
+}
+/****************** CONTAINER ************************/
+/* Primeria div do fundo que segura tudo*/
+.container{
+    width: 1900px;
+    min-height: 1300px;
+    height: auto;  
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fcfcfc;
+}
+/*******************  ************************/
+
+/******************* HEADER ************************/
+/* Div que segura todo o conteúdo do cabeçalho*/
+.cabecalho{
+    width:100%;
+    height: 150px;
+    background-color: #66ba8d;
+    
+      
+}
+/* Segura as divs de texto e imagem do usuário do cabeçalho*/
+.conteudo_cabecalho{
+    width:70%;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;   
+}
+/* Texto do cabeçalho*/
+.texto_cabecalho{
+    width: 90%;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;   
+    font-size: 40px;
+    display: block;
+    color: black;
+    text-align: center;
+    float: left;
+}
+/* Imagem do cabeçalho*/
+.imagem_cabecalho{
+    width: 10%;
+    height: 150px;
+    background-color: azure; 
+    text-align: center;
+    border-radius: 60px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 	#000000;
+    float: left;
+}
+/* Div que aparace após passar o mouse na imagem do usuário logado*/
+.tela_usuario{
+    width: 240px;
+    height: 0px;
+    border-radius: 30px;
+    background-color: dimgrey;
+    margin-left: -50px;
+    margin-top: 23px;
+    opacity: 0;
+    /*Esse comando resolve o problema do elemento aparecer na tela mesmo com o mouse fora do menu*/
+    overflow: hidden;
+    float: left;
+}
+/* Texto editado da tela do usuário*/
+.texto_usuario{
+    width: 100%;
+    min-height: 150px;
+    text-align: center;
+    height: auto;
+    font-size: 26px;
+    color:white;
+    transition: 2s;
+    opacity: 1;
+}
+/* Div que segura o botão de sair da tela do usuário*/
+.sair_usuario{
+    width: 100%;
+    min-height: 100px;
+    border-radius: 15px;
+    height: auto;
+    font-size: 30px;
+    color:white;
+}
+/* Botão editado da tela do usuário*/
+#botao{
+    width: 120px;
+    min-height: 43px;
+    margin-top: 20px;
+    height: auto;
+    font-size: 30px;
+    font-family: bold;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: azure;
+    transition: 2s;
+}
+/* Hover do botão*/
+#botao:hover{
+    
+}
+/* Hover da imagem do usuário  */
+.imagem_cabecalho:hover > .tela_usuario{
+    /*display: block;*/
+    height: 260px;
+    transition: 1s;
+    opacity: 1;
+    position: absolute;
+    /*Se usar o hidden no submenu temos que usar o visible hover*/
+    overflow: visible;
+    
+}
+/*******************  ************************/
+
+/******************* BODY ************************/
+/* Div que segura todo o conteúdo abaixo do cabeçalho*/
+.caixa_conteudo{
+    width: 1900px;
+    min-height: 1000px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;  
+}
+
+/* Div que segura as imagens com hover para a listagem de opções  */
+.menu{
+    width: 8%;
+    min-height: 1000px;
+    background-color: #66ba8d;
+    height: auto;
+    float: left;
+    font-size: 28px;
+    font-family: bold;
+    text-align: center;
+    color: black;
+           
+}
+.menu_categoria{
+    width: 100%;
+    height: 128px;
+    margin-top: 40px;
+    font-family: bold;
+}
+.menu_categoria:hover{
+    transition: 1s;
+    cursor: pointer;
+}
+ a{
+    color: black;
+     list-style-type: none;
+     text-decoration: none;
+}
+/* Div que segura as opções após o hover para a listagem de opções  */
+.submenu_categoria { 
+    width: 0px;
+    min-height: 350px;
+    height: auto;
+    background-color: #c7fce5;
+    text-align: center;
+    margin-left: 100%;
+    margin-top: -170px;
+    opacity: 0;
+    transition: 2s;
+    overflow: hidden;
+    
+    
+}
+/* Hover para a listagem de opções  */
+.menu_categoria:hover > .submenu_categoria{
+    /*display: block;*/
+    width: 300px;
+    transition: 1s;
+    opacity: 1;
+    overflow: visible;
+    
+}
+.caixa_submenu{
+    width: 100%;
+    min-height: 500px;
+    font-size: 20px;
+    text-align: center;
+    height: auto;
+    position: relative;
+    
+    
+}
+.item_submenu{
+    width: 100%;
+    height: 50px;
+    font-size: 24px;
+    color: black;
+}
+.item_submenu:hover{
+    transition: 2s;
+    cursor: pointer;
+}
+
+/******************* BODY ************************/
+/* Div que segura o conteúdo do lado da div de menu  */
+.conteudo{
+    width: 92%;
+    height: 1000px;
+    float: left;
+    text-align: center;
+    font-size: 50px;
+}
+
+/*******************  ************************/
+
+/******************* FOOTER ************************/
+/* O footer do CMS */
+#rodape{
+    width: 1900px;
+    height: 150px; 
+    background-color: #66ba8d;
+    text-align: center;
+}
+
+/*******************  ************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+

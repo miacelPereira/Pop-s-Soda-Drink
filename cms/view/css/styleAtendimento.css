@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+.pag_atendimento{
+    width: 1200px;
+    min-height: 800px;
+    height: auto;
+    background-color: forestgreen;   
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.homeAtendimento{
+    width: 600px;
+    min-height: 300px;
+    height: auto;
+    background-color: fuchsia;   
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+
+}
+.linkFaleConosco{
+    width: 250px;
+    min-height: 250px;
+    height: auto;
+    background-color: aqua;   
+    margin-left: 40px;
+    margin-top: 30px;
+    margin-right: auto;   
+    float: left;
+
+}
+.linkChatBot{
+    width: 250px;
+    min-height: 250px;
+    height: auto;
+    background-color: aqua;   
+    margin-left: 40px;
+    margin-top: 30px;
+    margin-right: auto;
+    float: left;
+
+}

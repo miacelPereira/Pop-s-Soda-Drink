@@ -1,0 +1,63 @@
+
+<div id="container1">
+    <div class="titulo">
+       Cadastro de brindes
+    </div>
+    <div class="caixa-btn">
+            <input type="submit" value="+ Novo"> 
+        </div>
+    <div class="tabela">
+        <div class="row-titulo">
+            <div class="assunto"> Código</div>
+             <div class="assunto"> Descrição</div>
+             <div class="assunto"> Preço</div>
+             <div class="assunto" style="width:360px;"> Opções</div>
+        </div>
+        <div class="row">
+        
+        </div>
+    </div>
+  
+    
+</div>
+<script src="js/admBrinde.js"></script>
+
+<script>
+    $(document).ready(function(){
+        console.log('admBrinde.html');
+        listBrinde()
+
+        
+    });
+
+
+
+$(document).ready(function(){
+    console.log('admBrinde.html');
+    listBrinde()
+});
+
+
+        $.ajax({
+            type:"GET",
+            url:"content/listBrinde.php",
+            success: function(data){
+                $('.row-body').html(data);
+            }
+        });
+   
+    
+function listBrinde(){
+
+    $.ajax({
+        type:"GET",
+        url:"content/listBrinde.php",
+        success: function(data){
+            $('.row').html(data);
+        }
+    });
+}
+
+
+
+</script>

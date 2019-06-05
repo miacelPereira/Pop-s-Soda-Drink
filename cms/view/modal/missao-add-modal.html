@@ -1,0 +1,54 @@
+<script>
+    function loadList(){
+        $.ajax({
+            type: "GET",
+            url: "content/list_missaoValor.php",
+            success: function(dados){
+                $("#container-list").html(dados)
+            }
+        })
+    }
+    $('#form').submit(function(){
+    event.preventDefault();
+
+    var link = "../router.php?controller=missao&action=insert";
+        $.ajax({
+            type: "POST",
+            url: link,
+            data: new FormData($('#form')[0]),
+            cache: false,
+            contentType: false,
+            processData: false,
+            async: true,
+            success: function(data){
+                $('#back-modal').fadeOut(200);
+                loadList();
+            }
+        });
+    });
+
+</script>
+
+<div class="modal" style="text-align: center;">
+    <div class="fechar">X</div>
+    <h1 style="text-align: center; font-size: 25px">Missão Visão e Valores</h1>
+
+    <form id="form" method="POST" enctype="multipart/form-data">
+        <div class="caixa">
+            <div class="txt"> <h3 >Missão</h3></div>
+            <textarea name="txt-missao"></textarea>
+        </div>
+        <div class="caixa">
+            <div class="txt"> <h3 >Visão :</h3></div>
+            <textarea name="txt-visao"></textarea>
+        </div>
+        <div class="caixa">
+            <div class="txt" style="margin:auto"> <h3 >Valores:</h3></div>
+            <textarea name="txt-valores"> </textarea>
+        </div>
+        <div id="div-btn">
+            <input type="submit" class="btn-submit" value="salvar">
+        </div>
+    </form>
+    
+</div>

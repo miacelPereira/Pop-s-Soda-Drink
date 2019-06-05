@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+
+}
+.imgEstabelecimento{
+    width: 100%;
+}
+.conteudo-corpo{
+    width: 1400px;
+    height: auto;
+    overflow: hidden;
+    min-height: 800px;
+    margin: auto;
+    background-color: white;
+    padding-bottom: 150px;
+}
+.caixa-titulo{
+    width: 100%;
+    height: 200px;
+    padding-top: 100px;
+    text-align: center;
+    font-family: century gothic;
+    font-size: 28px;
+    font-weight: bold;
+}
+.caixa-divulgacao{
+     width: 100%;
+    height: 550px;
+    background-color: gainsboro;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+h1{
+    text-align: left;
+    font-family: century gothic;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+h5{
+    text-align: left;
+    font-family: century gothic;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 20px;
+}

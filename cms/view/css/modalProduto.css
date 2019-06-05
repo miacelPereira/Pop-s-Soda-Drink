@@ -1,0 +1,278 @@
+#container{
+    width: 1000px;
+    height: 1500px;
+    background-color: fuchsia;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    
+}
+/* Modal dos detalhes da escola*/
+#modal{
+    width: 1000px;
+    height: 1500px;
+    background-color:darkseagreen;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+}
+#div_header{
+    width: 100%;
+    height: 100px;
+    background-color:black;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    
+}
+#div_header h1{
+    padding-top: 20px;
+}
+.fechar{
+    width: 50px;
+    height: 100%;
+	text-align:left;
+    float: left;
+	color:white;
+}
+.fechar a{
+    padding-left: 15px;
+    padding-top: 10px;
+    font-size: 40px;
+}
+#div_body{
+    width: 100%;
+    min-height: 1500px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#515b8c;
+    text-align: center;
+    font-size: 45px;
+    color: white;
+}
+#caixa1{
+    width: 100%;
+    height: 250px;
+    margin-left: 15px;
+}
+.caixa_esquerda{
+    width: 50%;
+    height: 250px;
+    font-size: 27px;
+    text-align: justify;
+    float: left;
+}
+.caixa_esquerda input{
+    width: 80%;
+    height: 40px;
+    font-size: 27px;
+    border: 1px black solid;
+    border-radius: 20px;
+}
+.caixa_direita{
+    width: 50%;
+    height: 250px;
+    font-size: 27px;
+    text-align: justify;
+    float: left;
+}
+.caixa_direita textarea{
+    width: 90%;
+    height: 150px;
+    float: left;
+    border: 1px black solid;
+    border-radius: 10px;
+}
+#caixa2{
+    width: 100%;
+    height: 100px;
+    font-size: 27px;
+    text-align: justify;
+    margin-left: 15px;
+}
+#caixa2 input{
+    width: 80%;
+    height: 40px;
+    font-size: 27px;
+    border: 1px black solid;
+    border-radius: 20px;
+}
+.divisao{
+    width: 33.3%;
+    height: 100px;
+    float: left
+}
+#caixa3{
+    width: 100%;
+    height: 100px;
+    font-size: 27px;
+    text-align: justify;
+    margin-left: 15px;
+}
+#caixa3 input{
+    width: 80%;
+    height: 40px;
+    font-size: 27px;
+    border: 1px black solid;
+    border-radius: 20px;
+}
+#caixa4{
+    width: 100%;
+    height: 100px;
+    font-size: 27px;
+    text-align: justify;
+    margin-left: 15px;
+}
+#caixa4 input{
+    width: 80%;
+    height: 40px;
+    font-size: 27px;
+    border: 1px black solid;
+    border-radius: 20px;
+}
+#caixa5 input{
+    width: 80%;
+    height: 40px;
+    font-size: 27px;
+    border: 1px black solid;
+    border-radius: 20px;
+}
+#caixa5{
+    width: 100%;
+    height: 400px;
+    font-size: 27px;
+    text-align: justify;
+    margin-left: 15px;
+}
+#img{
+    width: 80%;
+    height: 70%;
+    background-color: white;
+    margin-top: 15px;
+    border: 1px black solid;
+}
+.divisao_maior{
+    width: 33.3%;
+    height: 400px;
+    float: left
+}
+#caixa6{
+    width: 100%;
+    height: 100px;
+}
+#caixa6 h1{
+    font-size: 50px;
+    color: black;
+    text-align: justify;
+    margin-left: 25px;
+    
+}
+#caixa7{
+    width: 100%;
+    height: 100px;
+    font-size: 27px;
+    text-align: justify;
+    margin-left: 15px;
+}
+#caixa7 input{
+    width: 80%;
+    height: 40px;
+    font-size: 27px;
+    border: 1px black solid;
+    border-radius: 20px;
+}
+#btnAdicionar{
+    width: 30px;
+}
+#caixa8{
+    width: 100%;
+    min-height: 300px;
+    height: auto;
+}
+.tabela{
+    width: 950px;
+    height: auto;
+    min-height: 300px;
+    overflow: hidden;
+    text-align: center;
+    margin: auto;
+    padding-top: 10px;
+    color: black;
+}
+.row-titulo{
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+}
+
+.assunto{
+    width: 226px;
+    height: 100%;
+    float: left;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    font-size: 25px;
+    text-align: center;
+}
+.row{
+    width: 100%;
+    margin-top: 10px;
+    height: 70px;
+    background-color: whitesmoke;
+    padding: 5px;
+    border-radius: 8px;
+}
+.conteudo{
+    width: 225px;
+    height: 100%;
+    padding: 15px;
+    border-right: 1px solid #969696;
+    float: left;
+    margin-left: 10px;
+    font-size: 25px;
+    text-align: center;
+}
+.conteudo-img{
+    width: 225px;
+    height: 100%;
+    float: left;
+    margin-left: 10px;
+}
+.icon1{
+    width: 40%;
+    height: 100%;
+    background-image: url(../img/visu.png);
+    background-repeat: no-repeat;
+    background-size: 60px;
+    float: left;
+    margin-left: 20px;
+    
+}
+.icon2{
+    width: 40%;
+    height: 100%;
+    background-image: url(../img/delete.png);
+    background-repeat: no-repeat;
+    background-size: 55px;
+    float: left;
+    margin-left: 10px;
+    cursor: pointer;
+    
+}
+#caixa9{
+    width: 100%;
+    height: 100px;
+}
+#caixa9 input{
+    width: 20%;
+    height: 50px;
+    margin-left: 40%;
+    font-size: 30px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+}

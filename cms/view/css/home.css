@@ -1,0 +1,28 @@
+#container-home{
+    width: 100%;
+    height: auto;
+    max-height: 800px;
+    overflow: hidden;
+    background-color: #fff;
+   
+    
+}
+
+.box-content{
+    width: 100%;
+    height: 500px;
+    padding-top: 10%;
+    padding-left: 18%;
+    
+}
+
+.box-item{
+    width: 200px;
+    height: 200px;
+    border-radius: 12%;
+    margin-left: 80px;
+    float: left;
+    cursor: pointer;
+    
+}
+

@@ -1,0 +1,25 @@
+#container-home{
+    width: 100%;
+    height: auto;
+    min-height: 800px;
+    overflow: hidden;
+    background-color:#dedede;
+    padding-top: 50px; 
+}
+
+.box-content{
+    width: 1900px;
+    height: auto;
+    min-height: 500px;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.box-item{
+    width: 150px;
+    height: 250px;
+    float: left;
+    cursor: pointer;
+    text-align: center;
+}
+
